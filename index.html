@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>My E-Startup</title>
+
+       
+        <p align="center"><font size="40" face="bold">E-Startup</font></p>
+
+       <style>
+
+ /*style awal menu dan untuk menghilangkan list style*/
+#menu ul {
+ font-family: Arial, Verdana;
+ font-size: 16px;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+/*membuat menu menjadi horizontal dengan display block*/
+#menu ul li {
+ display: block;
+ position: relative;
+ float: left;
+}
+/*Untuk menyembunyikan ul li (submenu)*/
+ 
+#menu li ul {
+ display: none;
+}
+/*style awal seblum cursor mouse di arahkan (menu utama)*/
+#menu ul li a {
+ display: block;
+ text-decoration: none;
+ color: #ffffff;
+ padding: 20px 50px 20px 50px;
+ background: #000;
+ /*margin-left: 1px;*/
+ white-space: nowrap;
+}
+/*style setelah cursor diarahkan*/
+#menu ul li a:hover {
+background: #666;
+}
+/*untuk memunculkan submenu jika pada sebuah menu utama ada tag il ul (maksudnya ada tag ul dai dalam tag li)*/
+#menu li:hover ul {
+ display: block;
+ position: absolute;
+}
+/*meratakan sub menu kanan kiri dan menghilangkan fungsi float left (mengembalikan ke default)*/
+#menu li:hover li {
+ float: none;
+ font-size: 13px;
+}
+/*style awal seblum cursor mouse di arahkan (submenu)*/
+#menu li:hover a { background: #3b3b3b; }
+/*style setelah cursor diarahkan (submenu)*/
+#menu li:hover li a:hover {
+ background: #666;
+}
+
+		    table {
+		      font-family: arial, sans-serif;
+		      border-collapse: collapse;
+		      width: 100%;
+		    }
+
+		    td, th {
+		      border: 0px solid #dddddd;
+		      text-align: left;
+		      padding: 8px;
+		    }
+
+		    tr:nth-child(even) {
+		      background-color: #dddddd;
+		    }
+     </style>
+
+			<table>
+			  <tr>
+			    <th>
+			    <div id="menu">
+<ul>
+<li><a href="">About Us</a>
+<ul>
+ <li><a href="">Feature Item</a></li>
+ <li><a href="">Live Streaming</a></li>
+ <li><a href="">Privacy Policy</a></li>
+ </ul>
+</li>
+<li><a href="#">Support</a>
+ 
+<ul>
+ <li><a href="">FAQ</a></li>
+ <li><a href="">Editor Help</a></li>
+ <li><a href="">Technical Team</a></li>
+ </ul>
+ 
+</li>
+<li><a href="#">Contact Us</a>
+<ul>
+ <li><a href="">Email</a></li>
+ <li><a href="">Call Technical Team</a></li>
+ <li><a href="">Phone Number</a></li>
+ </ul>
+</li>
+
+<li><a href="#">Country</a>
+<ul>
+ <li><a href="">Indonesia</a></li>
+ <li><a href="">Mali</a></li>
+ <li><a href="">Canada</a></li>
+ </ul>
+ </li>
+</ul>
+</div>
+			</th>
+			  </tr>
+			 </table>
+
+    </head>
+
+    <body>
+
+			 <h1>Create your own E-StartUp</h1>
+		<p><a href="">E-Startup</a>We help you to make your own E-StartUp</p>
+	<h2>E-Commerce</h2>
+   	   <img src="img\startup.jpg" width="500" height="333">
+   <h3>E-Business</h3>
+       <img src="https://66.media.tumblr.com/672e9b2c243ed09e26cf8a2b67ee679a/tumblr_nqx977yGTE1tubinno1_1280.jpg" width="500" height="600">
+    </body>
+</html>
